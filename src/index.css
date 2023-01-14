@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer base {
+  body {
+    @apply bg-dark text-white min-w-full font-primary box-border;
+  }
+}
+
+.pendant_light {
+  clip-path: polygon(40% 0, 60% 0, 100% 100%, 0% 100%);
+}

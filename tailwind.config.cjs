@@ -8,10 +8,12 @@ module.exports = {
     extend: {
       backgroundImage: {
         demo_img: "url('/src/assets/image/demo-photo1.jpg')",
-        using_phone: "url('/src/assets/image/using_phone.jpg')",
+        using_phone: "url('/src/assets/image/using_phone3.jpg')",
+        using_phone1: "url('/src/assets/image/using_phone.jpg')",
       },
       animation: {
         flicker: "flicker 20s infinite",
+        imgScale: "imgScale 20s infinite",
       },
       keyframes: {
         flicker: {
